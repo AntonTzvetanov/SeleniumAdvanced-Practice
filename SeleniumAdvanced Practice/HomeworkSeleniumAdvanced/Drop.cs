@@ -88,8 +88,6 @@ namespace SeleniumWeb
             var afterY = dragable.Location.Y;
             var afterColor = target.GetCssValue("style");
 
-
-
         }
 
         [TearDown]
