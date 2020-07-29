@@ -15,3 +15,21 @@ C:\Users\ASUS\source\repos\HomeworkSeleniumAdvanced\HomeworkSeleniumAdvanced\bin
 C:\Users\ASUS\source\repos\HomeworkSeleniumAdvanced\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp2.2\HomeworkSeleniumAdvanced.pdb
 C:\Users\ASUS\source\repos\HomeworkSeleniumAdvanced\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp2.2\HomeworkSeleniumAdvanced.dll
 C:\Users\ASUS\source\repos\HomeworkSeleniumAdvanced\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp2.2\HomeworkSeleniumAdvanced.pdb
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp2.2\nunit.engine.dll
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp2.2\nunit.engine.api.dll
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp2.2\testhost.exe
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp2.2\testhost.dll
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp2.2\HomeworkSeleniumAdvanced.deps.json
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp2.2\HomeworkSeleniumAdvanced.runtimeconfig.json
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp2.2\HomeworkSeleniumAdvanced.runtimeconfig.dev.json
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp2.2\HomeworkSeleniumAdvanced.dll
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp2.2\HomeworkSeleniumAdvanced.pdb
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp2.2\HomeworkSeleniumAdvanced.csprojAssemblyReference.cache
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp2.2\HomeworkSeleniumAdvanced.AssemblyInfoInputs.cache
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp2.2\HomeworkSeleniumAdvanced.AssemblyInfo.cs
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp2.2\HomeworkSeleniumAdvanced.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp2.2\HomeworkSeleniumAdvanced.dll
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp2.2\HomeworkSeleniumAdvanced.pdb
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp2.2\HomeworkSeleniumAdvanced.genruntimeconfig.cache
