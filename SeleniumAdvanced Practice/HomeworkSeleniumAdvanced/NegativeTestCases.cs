@@ -20,10 +20,7 @@ namespace SeleniumWeb
         public void TestInit()
         {
             _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
-            _driver.Manage().Window.Maximize();
-            _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(5));
-            _driver.Navigate().GoToUrl("http://automationpractice.com/index.php");
-            _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+           
         }
 
         [Test]
@@ -271,7 +268,7 @@ namespace SeleniumWeb
             //Create Account 
             _driver.FindElement(By.ClassName("login")).Click();
             var EnterEmailAddress = _driver.FindElement(By.Id("email_create"));
-            EnterEmailAddress.SendKeys("antontzvetanov@gmail.com");
+            EnterEmailAddress.SendKeys("antontzvetanoпокхгйфдсv@gmail.com");
             var createAccbutton = _driver.FindElement(By.Id("SubmitCreate"));
             createAccbutton.Click();
             var radioButton = _driver.FindElement(By.Id("id_gender1"));
