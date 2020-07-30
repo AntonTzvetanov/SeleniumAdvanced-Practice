@@ -5,7 +5,7 @@ using OpenQA.Selenium.Support.UI;
 using System.IO;
 using System.Reflection;
 
-namespace SeleniumWeb
+namespace SeleniumWeb.Pages
 {
     [TestFixture]
     class Negative_testing
@@ -26,7 +26,7 @@ namespace SeleniumWeb
         public void SkipLastNameOnRegistrationForm()
         {
             //Create Account 
-            _driver.FindElement(By.ClassName("login")).Click();
+            
             var еmailAddress = _driver.FindElement(By.Id("email_create"));
             еmailAddress.SendKeys("antontzvetanov@gmail.com");
             var createAccbutton = _driver.FindElement(By.Id("SubmitCreate"));

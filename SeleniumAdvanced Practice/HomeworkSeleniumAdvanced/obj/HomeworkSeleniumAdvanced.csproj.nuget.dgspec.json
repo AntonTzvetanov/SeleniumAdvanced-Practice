@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\source\\repos\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj": {}
+    "C:\\Users\\ASUS\\Source\\Repos\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\source\\repos\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj": {
+    "C:\\Users\\ASUS\\Source\\Repos\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Source\\Repos\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj",
         "projectName": "HomeworkSeleniumAdvanced",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Source\\Repos\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\source\\repos\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Source\\Repos\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
