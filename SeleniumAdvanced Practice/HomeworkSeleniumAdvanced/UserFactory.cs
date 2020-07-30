@@ -6,11 +6,11 @@
         {
             return new RegistrationUser
             {
-                FirstName = "Ventsi",
-                LastName = "Batman",
-                Year = "1989",
-                Month = "3",
-                Date = "3",
+                FirstName = "Test",
+                LastName = "User",
+                Year = "2000",
+                Month = "2",
+                Date = "1",
                 Password = "gdsjafgujdsw",
                 Gender = "male",
                 PostCode = "4324422"
