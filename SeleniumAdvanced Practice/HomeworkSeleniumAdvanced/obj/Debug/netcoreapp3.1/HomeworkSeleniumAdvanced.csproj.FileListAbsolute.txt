@@ -3,7 +3,6 @@ C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\H
 C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
 C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\nunit.engine.dll
 C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
-C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\testhost.exe
 C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\HomeworkSeleniumAdvanced.deps.json
 C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\HomeworkSeleniumAdvanced.runtimeconfig.json
 C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\HomeworkSeleniumAdvanced.runtimeconfig.dev.json
@@ -99,3 +98,6 @@ C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\H
 C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp3.1\HomeworkSeleniumAdvanced.dll
 C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp3.1\HomeworkSeleniumAdvanced.pdb
 C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp3.1\HomeworkSeleniumAdvanced.genruntimeconfig.cache
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\testhost.x86.exe
+C:\Users\ASUS\Source\Repos\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\testhost.x86.dll

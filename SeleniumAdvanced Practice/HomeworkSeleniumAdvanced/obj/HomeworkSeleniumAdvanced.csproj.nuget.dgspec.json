@@ -45,11 +45,11 @@
           "dependencies": {
             "MSTest.TestFramework": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.1.2, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.3.0, )"
+              "version": "[16.7.1, )"
             },
             "NUnit": {
               "target": "Package",
@@ -57,7 +57,7 @@
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[3.15.1, )"
+              "version": "[3.17.0, )"
             },
             "Selenium.Support": {
               "target": "Package",
@@ -69,7 +69,7 @@
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[83.0.4103.3915, )"
+              "version": "[85.0.4183.8300, )"
             }
           },
           "imports": [
@@ -87,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

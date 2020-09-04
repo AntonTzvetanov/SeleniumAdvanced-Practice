@@ -2,6 +2,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
+using System;
 using System.IO;
 using System.Reflection;
 
@@ -19,7 +20,8 @@ namespace SeleniumWeb.Pages
         public void TestInit()
         {
             _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
-           
+
+            _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(2));
         }
 
         [Test]
