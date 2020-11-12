@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
@@ -24,7 +25,6 @@ namespace SeleniumWeb
             _driver.Manage().Window.Maximize();
             _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(5));
             _driver.Navigate().GoToUrl("https://demoqa.com/droppable/");
-
 
         }
 
@@ -61,7 +61,7 @@ namespace SeleniumWeb
             var targetColor = target.GetCssValue("style");
             Actions builder = new Actions(_driver);
 
-            builder.DragAndDropToOffset(dragable, 175, 25).Perform();
+            builder.DragAndDropToOffset(dragable, 350, 25).Perform();
 
             var afterX = dragable.Location.X;
             var afterY = dragable.Location.Y;
@@ -82,7 +82,7 @@ namespace SeleniumWeb
             var targetColor = target.GetCssValue("style");
             Actions builder = new Actions(_driver);
 
-            builder.DragAndDropToOffset(dragable, 175, 45).Perform();
+            builder.DragAndDropToOffset(dragable, 175, 200).Perform();
 
             var afterX = dragable.Location.X;
             var afterY = dragable.Location.Y;
@@ -93,9 +93,24 @@ namespace SeleniumWeb
         [TearDown]
         public void TearDown()
         {
+            var name = TestContext.CurrentContext.Test.Name;
+            var result = TestContext.CurrentContext.Result.Outcome;
+
+            if (result != ResultState.Success)
+            {
+                var screenshot = ((ITakesScreenshot)_driver).GetScreenshot();
+                var directory = Directory.GetCurrentDirectory();
+
+                var fullPath = Path.GetFullPath("..\\..\\..\\Screenshots");
+
+                screenshot.SaveAsFile(fullPath + name + ".png", ScreenshotImageFormat.Png);
+
+            }
             _driver.Quit();
 
+
         }
+
 
     }
 

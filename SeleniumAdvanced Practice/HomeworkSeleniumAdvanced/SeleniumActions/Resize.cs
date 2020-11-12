@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
@@ -29,17 +30,19 @@ namespace SeleniumWeb
 
         public void ResizeBoxWith100px()
         {
-            var box = _driver.FindElement(By.Id("resizable"));
+            var box = _driver.FindElement(By.Id("resizableBoxWithRestriction"));
             double boxWidth = box.Size.Width;
             double boxHeight = box.Size.Height;
 
-            var resizeHandle = _driver.FindElement(By.XPath("//*[@id='resizable']/div[3]"));
+            var resizeHandle = _driver.FindElement(By.XPath("//*[@id='resizableBoxWithRestriction']/span"));
 
             var builder = new Actions(_driver);
-            builder.DragAndDropToOffset(resizeHandle, 100, 100).Perform();
-            Assert.AreEqual(boxWidth + 84, box.Size.Width);
-            Assert.AreEqual(boxHeight + 84, box.Size.Height);
+            builder
+                .DragAndDropToOffset(resizeHandle, 100, 100)
+                .Perform();
 
+            Assert.AreEqual(boxWidth + 100, box.Size.Width,"fail with cordinate X");
+            Assert.AreEqual(boxHeight + 100, box.Size.Height,"fail with cordinate Y");
 
         }
 
@@ -47,25 +50,42 @@ namespace SeleniumWeb
         public void ResizeBoxWith250px()
         {
 
-            var box = _driver.FindElement(By.Id("resizable"));
+            var box = _driver.FindElement(By.Id("resizableBoxWithRestriction"));
             double boxWidth = box.Size.Width;
             double boxHeight = box.Size.Height;
 
-            var resizeHandle = _driver.FindElement(By.XPath("//*[@id='resizable']/div[3]"));
+            var resizeHandle = _driver.FindElement(By.XPath("//*[@id='resizableBoxWithRestriction']/span"));
 
             var builder = new Actions(_driver);
-            builder.DragAndDropToOffset(resizeHandle, 250, 250).Perform();
-            Assert.AreEqual(boxWidth + 233, box.Size.Width);
-            Assert.AreEqual(boxHeight + 233, box.Size.Height);
+            builder
+                .DragAndDropToOffset(resizeHandle, 250, 250)
+                .Perform();
+
+            Assert.AreEqual(boxWidth + 250, box.Size.Width,"error in condinate X ");
+            Assert.AreEqual(boxHeight + 100, box.Size.Height,"error i cordinate Y ");
 
         }
 
         [TearDown]
         public void TearDown()
         {
+            var name = TestContext.CurrentContext.Test.Name;
+            var result = TestContext.CurrentContext.Result.Outcome;
 
+            if (result != ResultState.Success)
+            {
+                var screenshot = ((ITakesScreenshot)_driver).GetScreenshot();
+                var directory = Directory.GetCurrentDirectory();
+
+                var fullPath = Path.GetFullPath("..\\..\\..\\Screenshots");
+
+                screenshot.SaveAsFile(fullPath + name + ".png", ScreenshotImageFormat.Png);
+
+            }
             _driver.Quit();
+
         }
+
 
     }
 }
