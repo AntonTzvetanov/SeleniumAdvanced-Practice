@@ -24,8 +24,7 @@ namespace SeleniumWeb
             _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
             _driver.Manage().Window.Maximize();
             _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(3));
-            _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
-
+            
             _driver.Navigate().GoToUrl("https://demoqa.com/selectable/");
 
         }
@@ -35,15 +34,16 @@ namespace SeleniumWeb
         public void SelectElementItem3and4()
         {
 
-
-            var selectElement = _driver.FindElement(By.Id("selectable"));
-            var Items = _driver.FindElement(By.XPath("//*[@id='selectable']"));
-            var target = _driver.FindElement(By.Id("selectable"));
-
-            var item3 = _driver.FindElement(By.XPath("//*[@id='selectable']/li[3]"));
+            var selectElement = _driver.FindElement(By.XPath("//*[@id='verticalListContainer']/li[1]"));
+           
+            var item3 = _driver.FindElement(By.XPath("//*[@id='verticalListContainer']/li[3]"));
 
             Actions builder = new Actions(_driver);
-            builder.ClickAndHold(selectElement).ClickAndHold(item3).Release().Perform();
+            builder
+                .ClickAndHold(selectElement)
+                .ClickAndHold(item3)
+                .Release()
+                .Perform();
 
             Assert.AreEqual(item3.Text, "Item 3");
 
@@ -61,9 +61,6 @@ namespace SeleniumWeb
             builder.ClickAndHold(element1).ClickAndHold(element5).Release().Perform();
 
             Assert.AreEqual(element5.Text,"Item 5");
-
-
-
 
         }
 

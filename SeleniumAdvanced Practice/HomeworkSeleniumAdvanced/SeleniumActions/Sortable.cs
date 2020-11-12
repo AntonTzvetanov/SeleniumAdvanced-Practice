@@ -25,7 +25,6 @@ namespace SeleniumWeb
             _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(5));
             _driver.Navigate().GoToUrl("https://demoqa.com/sortable/");
 
-
         }
 
         [Test]
@@ -61,16 +60,25 @@ namespace SeleniumWeb
             var item2 = _driver.FindElement(By.XPath("//*[@id='sortable']/li[3]"));
 
             var item1Location = item1.Location.X;
+            var item2Location = item2.Location.Y;
 
 
             Actions builder = new Actions(_driver);
 
-            builder.ClickAndHold(item1).Build().Perform();
-            builder.MoveToElement(item2).Build().Perform();
-            builder.Release(item1).Perform();
+            builder
+                .ClickAndHold(item1)
+                .Build()
+                .Perform();
+            builder
+                .MoveToElement(item2)
+                .Build()
+                .Perform();
+            builder
+                .Release(item1)
+                .Perform();
 
             var afterItem1Location = item1.Location.X;
-
+            var afterItem2Location = item2.Location.Y;
 
             Assert.AreEqual(afterItem1Location, item1Location);
 

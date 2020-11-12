@@ -6,7 +6,7 @@
 
         public string LastName { get; set; }
 
-        //TODO
+        
         public string Gender { get; set; }
 
         public string Password { get; set; }
