@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Source\\Repos\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj": {}
+    "C:\\Users\\anton.tsvetanov\\Documents\\GitHub\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Source\\Repos\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj": {
+    "C:\\Users\\anton.tsvetanov\\Documents\\GitHub\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Source\\Repos\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj",
+        "projectUniqueName": "C:\\Users\\anton.tsvetanov\\Documents\\GitHub\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj",
         "projectName": "HomeworkSeleniumAdvanced",
-        "projectPath": "C:\\Users\\ASUS\\Source\\Repos\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Source\\Repos\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\obj\\",
+        "projectPath": "C:\\Users\\anton.tsvetanov\\Documents\\GitHub\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\HomeworkSeleniumAdvanced.csproj",
+        "packagesPath": "C:\\Users\\anton.tsvetanov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton.tsvetanov\\Documents\\GitHub\\SeleniumAdvanced-Practice\\SeleniumAdvanced Practice\\HomeworkSeleniumAdvanced\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anton.tsvetanov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
