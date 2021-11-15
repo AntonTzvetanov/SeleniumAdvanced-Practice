@@ -8,7 +8,7 @@ using System;
 using System.IO;
 using System.Reflection;
 
-namespace SeleniumWeb
+namespace SeleniumWeb.Pages
 {
     [TestFixture]
     internal class Interaction_TestsDropBase
@@ -16,9 +16,24 @@ namespace SeleniumWeb
         private ChromeDriver _driver;
         private WebDriverWait _wait;
 
+
+        [SetUp]
+
+        public void TestInit()
+        {
+            _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
+            
+            _driver.Manage().Window.Maximize();
+            _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(5));
+            _driver.Navigate().GoToUrl("https://demoqa.com/droppable/");
+
+        }
+
         [Test]
         public void Dropable()
         {
+            
+            _driver.Navigate().GoToUrl("https://www.google.com");
             var dragable = _driver.FindElement(By.Id("draggable"));
             var target = _driver.FindElement(By.Id("droppable"));
 
@@ -33,6 +48,9 @@ namespace SeleniumWeb
             var afterX = dragable.Location.X;
             var afterY = dragable.Location.Y;
             var afterColor = target.GetCssValue("style");
+
+            Assert.Greater(afterX, afterY);
+            Assert.Greater(afterColor, 25);
 
         }
 
@@ -76,6 +94,9 @@ namespace SeleniumWeb
             var afterY = dragable.Location.Y;
             var afterColor = target.GetCssValue("style");
 
+            Assert.Greater((afterX, afterY), (dragX, dragY));
+            Assert.IsEmpty(target.GetCssValue("style"));
+
         }
 
         [TearDown]
@@ -100,15 +121,5 @@ namespace SeleniumWeb
         }
 
 
-        [SetUp]
-
-        public void TestInit()
-        {
-            _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
-            _driver.Manage().Window.Maximize();
-            _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(5));
-            _driver.Navigate().GoToUrl("https://demoqa.com/droppable/");
-
-        }
     }
 }

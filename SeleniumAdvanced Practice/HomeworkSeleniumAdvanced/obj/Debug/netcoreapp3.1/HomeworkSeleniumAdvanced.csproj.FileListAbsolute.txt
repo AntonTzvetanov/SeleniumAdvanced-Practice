@@ -114,7 +114,6 @@ C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdva
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\HomeworkSeleniumAdvanced.dll
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\HomeworkSeleniumAdvanced.pdb
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
-C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -130,7 +129,6 @@ C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdva
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\nunit.framework.dll
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\WebDriver.dll
-C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -205,3 +203,4 @@ C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdva
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp3.1\HomeworkSeleniumAdvanced.pdb
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp3.1\HomeworkSeleniumAdvanced.genruntimeconfig.cache
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp3.1\HomeworkSeleniumAdvanced.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\bin\Debug\netcoreapp3.1\testcentric.engine.metadata.dll

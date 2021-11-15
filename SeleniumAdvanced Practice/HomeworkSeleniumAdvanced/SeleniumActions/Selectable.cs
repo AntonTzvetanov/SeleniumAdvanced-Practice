@@ -7,7 +7,7 @@ using System;
 using System.IO;
 using System.Reflection;
 
-namespace SeleniumWeb
+namespace SeleniumWeb.Pages
 {
     [TestFixture]
     class InterationTestSelectable
@@ -33,7 +33,7 @@ namespace SeleniumWeb
 
         public void SelectElementItem3and4()
         {
-
+           
             var selectElement = _driver.FindElement(By.XPath("//*[@id='verticalListContainer']/li[1]"));
            
             var item3 = _driver.FindElement(By.XPath("//*[@id='verticalListContainer']/li[3]"));
