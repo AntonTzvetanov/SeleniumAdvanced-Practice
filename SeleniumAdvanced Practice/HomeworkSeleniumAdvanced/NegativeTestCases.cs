@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using HomeworkSeleniumAdvanced;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
@@ -9,11 +10,15 @@ using System.Reflection;
 namespace SeleniumWeb.Pages
 {
     [TestFixture]
-    class Negative_testing
+    class Negative_testing : BasePage
     {
         private ChromeDriver _driver;
         private WebDriverWait _wait;
 
+        public Negative_testing(IWebDriver driver) 
+            : base(driver)
+        {
+        }
 
         [SetUp]
 
@@ -22,13 +27,20 @@ namespace SeleniumWeb.Pages
             _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
 
             _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(2));
+            _driver.Navigate();
+          
         }
 
         [Test]
         public void SkipLastNameOnRegistrationForm()
         {
+            _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
+            _driver.Navigate().GoToUrl("https://www.google.com");
+            _driver.Manage().Window.Maximize(); 
+
+
             //Create Account 
-            
+
             var еmailAddress = _driver.FindElement(By.Id("email_create"));
             еmailAddress.SendKeys("antontzvetanov@gmail.com");
             var createAccbutton = _driver.FindElement(By.Id("SubmitCreate"));

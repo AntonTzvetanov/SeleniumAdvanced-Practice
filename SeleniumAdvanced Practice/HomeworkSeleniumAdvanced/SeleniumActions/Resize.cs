@@ -3,16 +3,19 @@ using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
+using OpenQA.Selenium.Support.UI;
+using System;
 using System.IO;
 using System.Reflection;
 
-namespace SeleniumWeb
+namespace SeleniumWeb.Pages
 {
     [TestFixture]
 
     class InterationTestResize
     {
         private ChromeDriver _driver;
+        private WebDriverWait _wait;
 
 
         [SetUp]
@@ -20,7 +23,9 @@ namespace SeleniumWeb
         public void TestInit()
         {
             _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
+            
             _driver.Manage().Window.Maximize();
+            _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(3));
 
             _driver.Navigate().GoToUrl("https://demoqa.com/resizable/");
 

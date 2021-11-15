@@ -10,6 +10,7 @@
         "dependencies": {
           "MSTest.TestFramework": "2.2.7",
           "Microsoft.NET.Test.Sdk": "17.0.0",
+          "Microsoft.NETCore.App": "2.2.8",
           "NUnit": "3.13.2",
           "NUnit3TestAdapter": "4.1.0",
           "Selenium.Support": "4.0.1",
@@ -34,8 +35,27 @@
           "Microsoft.TestPlatform.TestHost": "17.0.0"
         }
       },
-      "Microsoft.NETCore.Platforms/1.1.0": {},
-      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.NETCore.App/2.2.8": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostPolicy": "2.2.8",
+          "Microsoft.NETCore.Platforms": "2.2.4",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "NETStandard.Library": "2.0.3"
+        }
+      },
+      "Microsoft.NETCore.DotNetAppHost/2.2.8": {},
+      "Microsoft.NETCore.DotNetHostPolicy/2.2.8": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostResolver": "2.2.8"
+        }
+      },
+      "Microsoft.NETCore.DotNetHostResolver/2.2.8": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetAppHost": "2.2.8"
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.2.4": {},
+      "Microsoft.NETCore.Targets/2.0.0": {},
       "Microsoft.TestPlatform.ObjectModel/17.0.0": {
         "dependencies": {
           "NuGet.Frameworks": "5.0.0",
@@ -285,7 +305,7 @@
       },
       "MSTest.TestFramework/2.2.7": {
         "dependencies": {
-          "NETStandard.Library": "2.0.0",
+          "NETStandard.Library": "2.0.3",
           "System.Diagnostics.TextWriterTraceListener": "4.3.0"
         },
         "runtime": {
@@ -299,9 +319,9 @@
           }
         }
       },
-      "NETStandard.Library/2.0.0": {
+      "NETStandard.Library/2.0.3": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0"
+          "Microsoft.NETCore.Platforms": "2.2.4"
         }
       },
       "Newtonsoft.Json/12.0.3": {
@@ -322,7 +342,7 @@
       },
       "NUnit/3.13.2": {
         "dependencies": {
-          "NETStandard.Library": "2.0.0"
+          "NETStandard.Library": "2.0.3"
         },
         "runtime": {
           "lib/netstandard2.0/nunit.framework.dll": {
@@ -334,8 +354,8 @@
       "NUnit3TestAdapter/4.1.0": {},
       "runtime.native.System/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0"
+          "Microsoft.NETCore.Platforms": "2.2.4",
+          "Microsoft.NETCore.Targets": "2.0.0"
         }
       },
       "Selenium.Support/4.0.1": {
@@ -363,15 +383,15 @@
       "Selenium.WebDriver.ChromeDriver/95.0.4638.6900": {},
       "System.Collections/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Platforms": "2.2.4",
+          "Microsoft.NETCore.Targets": "2.0.0",
           "System.Runtime": "4.3.0"
         }
       },
       "System.Diagnostics.Debug/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Platforms": "2.2.4",
+          "Microsoft.NETCore.Targets": "2.0.0",
           "System.Runtime": "4.3.0"
         }
       },
@@ -387,7 +407,7 @@
       },
       "System.Diagnostics.TraceSource/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Platforms": "2.2.4",
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Globalization": "4.3.0",
@@ -400,15 +420,15 @@
       },
       "System.Globalization/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Platforms": "2.2.4",
+          "Microsoft.NETCore.Targets": "2.0.0",
           "System.Runtime": "4.3.0"
         }
       },
       "System.IO/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Platforms": "2.2.4",
+          "Microsoft.NETCore.Targets": "2.0.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
@@ -416,8 +436,8 @@
       },
       "System.Reflection/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Platforms": "2.2.4",
+          "Microsoft.NETCore.Targets": "2.0.0",
           "System.IO": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
@@ -426,15 +446,15 @@
       "System.Reflection.Metadata/1.6.0": {},
       "System.Reflection.Primitives/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Platforms": "2.2.4",
+          "Microsoft.NETCore.Targets": "2.0.0",
           "System.Runtime": "4.3.0"
         }
       },
       "System.Resources.ResourceManager/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Platforms": "2.2.4",
+          "Microsoft.NETCore.Targets": "2.0.0",
           "System.Globalization": "4.3.0",
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
@@ -442,21 +462,21 @@
       },
       "System.Runtime/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0"
+          "Microsoft.NETCore.Platforms": "2.2.4",
+          "Microsoft.NETCore.Targets": "2.0.0"
         }
       },
       "System.Runtime.Extensions/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Platforms": "2.2.4",
+          "Microsoft.NETCore.Targets": "2.0.0",
           "System.Runtime": "4.3.0"
         }
       },
       "System.Text.Encoding/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Platforms": "2.2.4",
+          "Microsoft.NETCore.Targets": "2.0.0",
           "System.Runtime": "4.3.0"
         }
       },
@@ -468,8 +488,8 @@
       },
       "System.Threading.Tasks/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Platforms": "2.2.4",
+          "Microsoft.NETCore.Targets": "2.0.0",
           "System.Runtime": "4.3.0"
         }
       }
@@ -495,19 +515,47 @@
       "path": "microsoft.net.test.sdk/17.0.0",
       "hashPath": "microsoft.net.test.sdk.17.0.0.nupkg.sha512"
     },
-    "Microsoft.NETCore.Platforms/1.1.0": {
+    "Microsoft.NETCore.App/2.2.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
-      "path": "microsoft.netcore.platforms/1.1.0",
-      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+      "sha512": "sha512-GOxlvyc8hFrnhDjYlm25JJ7PwoyeoOpZzcg6ZgF8n8l6VxezNupRkkTeA2ek1WsspN0CdAoA8e7iDVNU84/F+Q==",
+      "path": "microsoft.netcore.app/2.2.8",
+      "hashPath": "microsoft.netcore.app.2.2.8.nupkg.sha512"
     },
-    "Microsoft.NETCore.Targets/1.1.0": {
+    "Microsoft.NETCore.DotNetAppHost/2.2.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
-      "path": "microsoft.netcore.targets/1.1.0",
-      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+      "sha512": "sha512-Lh1F6z41levvtfC3KuuiQe9ppWKRP1oIB42vP1QNQE4uumo95h+LpjPDeysX1DlTjCzG0BVGSUEpCW5fHkni7w==",
+      "path": "microsoft.netcore.dotnetapphost/2.2.8",
+      "hashPath": "microsoft.netcore.dotnetapphost.2.2.8.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostPolicy/2.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rOHr0Dk87vaiq9d1hMpXETB4IKq1jIiPQlVKNUjRGilK/cjOcadhsk+1MsrJ/GnM3eovhy8zW2PGkN8pYEolnw==",
+      "path": "microsoft.netcore.dotnethostpolicy/2.2.8",
+      "hashPath": "microsoft.netcore.dotnethostpolicy.2.2.8.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostResolver/2.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-culLr+x2GvUkXVGi4ULZ7jmWJEhuAMyS7iTWBlkWnqbKtYJ36ZlgHbw/6qTm82790gJemEFeo9RehDwfRXfJzA==",
+      "path": "microsoft.netcore.dotnethostresolver/2.2.8",
+      "hashPath": "microsoft.netcore.dotnethostresolver.2.2.8.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZeCe9PRhMpKzVWrNgTvWpLjJigppErzN663lJOqAzcx0xjXpcAMpIImFI46IE1gze18VWw6bbfo7JDkcaRWuOg==",
+      "path": "microsoft.netcore.platforms/2.2.4",
+      "hashPath": "microsoft.netcore.platforms.2.2.4.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-odP/tJj1z6GylFpNo7pMtbd/xQgTC3Ex2If63dRTL38bBNMwsBnJ+RceUIyHdRBC0oik/3NehYT+oECwBhIM3Q==",
+      "path": "microsoft.netcore.targets/2.0.0",
+      "hashPath": "microsoft.netcore.targets.2.0.0.nupkg.sha512"
     },
     "Microsoft.TestPlatform.ObjectModel/17.0.0": {
       "type": "package",
@@ -530,12 +578,12 @@
       "path": "mstest.testframework/2.2.7",
       "hashPath": "mstest.testframework.2.2.7.nupkg.sha512"
     },
-    "NETStandard.Library/2.0.0": {
+    "NETStandard.Library/2.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
-      "path": "netstandard.library/2.0.0",
-      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
     "Newtonsoft.Json/12.0.3": {
       "type": "package",

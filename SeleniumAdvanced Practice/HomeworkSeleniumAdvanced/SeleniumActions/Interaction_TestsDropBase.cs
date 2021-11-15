@@ -33,7 +33,7 @@ namespace SeleniumWeb.Pages
         public void Dropable()
         {
             
-            _driver.Navigate().GoToUrl("https://www.google.com");
+           _driver.Navigate().GoToUrl("https://www.google.com");
             var dragable = _driver.FindElement(By.Id("draggable"));
             var target = _driver.FindElement(By.Id("droppable"));
 
@@ -95,7 +95,7 @@ namespace SeleniumWeb.Pages
             var afterColor = target.GetCssValue("style");
 
             Assert.Greater((afterX, afterY), (dragX, dragY));
-            Assert.IsEmpty(target.GetCssValue("style"));
+            Assert.AreNotEqual(targetColor,afterColor);
 
         }
 
