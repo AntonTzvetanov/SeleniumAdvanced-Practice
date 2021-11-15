@@ -204,3 +204,4 @@ C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdva
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp3.1\HomeworkSeleniumAdvanced.dll
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp3.1\HomeworkSeleniumAdvanced.pdb
 C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp3.1\HomeworkSeleniumAdvanced.genruntimeconfig.cache
+C:\Users\anton.tsvetanov\Documents\GitHub\SeleniumAdvanced-Practice\SeleniumAdvanced Practice\HomeworkSeleniumAdvanced\obj\Debug\netcoreapp3.1\HomeworkSeleniumAdvanced.GeneratedMSBuildEditorConfig.editorconfig
